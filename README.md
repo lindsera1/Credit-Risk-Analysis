@@ -24,7 +24,7 @@ SMOTE Oversampling is synthetic in nature, creating new samples based on the val
 of the majority class, then generates synthetic data points, called centroids, that are representative of the clusters. The majority class is then undersampled down 
 to the size of the minority class. The results for this sampling technique are shown.
 
-![cluster](https://github.com/lindsera1/Credit-Risk-Analysis/blob/main/Screen%20Shot%202021-02-01%20at%2012.28.38%20AM.png### Subheading)
+![cluster](https://github.com/lindsera1/Credit-Risk-Analysis/blob/main/Screen%20Shot%202021-02-01%20at%2012.28.38%20AM.png)
 
 + The last sampling technique we used was a combination of SMOTE and ENN, called SMOTEENN. It oversamples the minority class with SMOTE, then cleans the resulting 
 data with an undersampling strategy. If the two nearest neighbors of a data point belong to two different classes, that data point is dropped. This is how this 
